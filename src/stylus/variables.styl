@@ -1,0 +1,45 @@
+@import '~vuetify/src/stylus/settings/_colors'
+$body-font-family :=  'Montserrat', sans-serif
+// $font-size-root := 15px
+$theme := {
+  // primary: $deep-purple.base
+  accent: $deep-purple.accent-2
+  info: $blue.lighten-1
+  warning: $amber.darken-2
+  error: $red.accent-4
+  success: #00C486
+  sidebar: #241d3b
+  act: #00C486
+  avatar-text: #444444
+  menuhover: #BFCFE0
+}
+
+$board-labels := {
+  nolabel: #677484,
+  complete: #62BDA0,
+  inprogress: #FEBE36,
+  pendingreview: #4DA1FF,
+  notstarted: #8A75AE,
+  overdue: #D75656,
+  hightpriority: #FF3279
+}
+
+$sidebar := {
+  onhover: rgba(0,0,0,0.20)
+  groupActive: rgba(0,0,0,0.30)
+}
+
+$headings = {
+  h1: { size: 48px, weight: 600, line-height: 1, letter-spacing: -.04em, font-family: $heading-font-family },
+  h2: { size: 36px, weight: 400, line-height: 1.35, letter-spacing: -.02em, font-family: $heading-font-family },
+  h3: { size: 32px, weight: 600, line-height: 48px, letter-spacing: normal, font-family: $heading-font-family },
+  h4: { size: 24px, weight: 400, line-height: 40px, letter-spacing: normal, font-family: $heading-font-family },
+  h5: { size: 18px, weight: 400, line-height: 32px, letter-spacing: normal, font-family: $heading-font-family },
+  h6: { size: 12px, weight: 500, line-height: 1, letter-spacing: .02em, font-family: $heading-font-family },
+  subheading: { size: 28px, weight: 400 },
+  subheading1: { size: 55px, weight: 400 },
+  body-2: { size: 14px, weight: 500 },
+  body-1: { size: 14px, weight: 400 },
+  caption: { size: 12px, weight: 400 },
+  button: { size: 14px, weight: 500 }
+}

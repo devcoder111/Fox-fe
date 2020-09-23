@@ -1,0 +1,97 @@
+// Write variables here so We can override the default
+// $body-font-family = 'Open Sans'
+// $alert-font-size = 18px
+@import './variables'
+@import './_colors'
+@import '~vuetify/src/stylus/main'
+@import './_mixins'
+@import './_theme-builder'
+@import './_gradient'
+@import './_buttons'
+@import './_input'
+@import './_datatable'
+@import './_list'
+@import './_chips'
+@import './_scroll'
+@import './_helpers'
+@import './_settings'
+@import './_sidebar'
+@import './_sectionDef'
+
+@import './page_layouts'
+@import './_confirmbox'
+@import './_texteditor'
+
+// @import './_calendar'
+@import './_contacts'
+@import './_chat'
+// @import './_widgets'
+
+html
+  overflow-y: auto
+// .v-content
+//   // max-height: calc(100vh - 36px)
+//   max-height: 100vh
+//   // overflow: hidden
+
+.v-underline 
+  text-decoration: none;
+
+.v-text-center
+  text-align: center !important;
+
+.v-text-right
+  text-align: right !important
+
+.v-label 
+  font-size: 13px !important
+
+.v-header
+  font-family: 'Avenir', sans-serif
+
+.v-text-field .v-input__control .v-input__slot
+  min-height: auto !important
+  display: flex !important
+  align-items: center !important
+
+.v-text-field--box input, .v-text-field--full-width input, .v-text-field--outline input
+  margin-top: 0px !important
+
+.v-text-field input
+  font-size: 14px !important
+
+.v-border.v-input .v-input__slot
+  border-radius: 5px
+
+.v-overflow-btn .v-input__slot::before
+    border-color: grey !important
+
+.v-button
+  font-size: 14px !important
+  height: 40px !important
+  border-radius: 8px
+
+.v-custom-tab
+  font-size: 12px !important
+
+.v-tabs__item
+  margin-bottom: -15px !important
+  color: #263a74 !important;
+
+.v-tabs__item:not(.v-tabs__item--active)
+  opacity: .3 !important
+
+.theme--light.v-table thead tr:first-child
+  border-bottom: 2px solid rgba(0,0,0,0.12) !important;
+
+.smallest
+  font-size: 90% !important
+
+.v-custom-shadow
+  box-shadow: 0 1px 6px rgba(57,73,76,0.35) !important;
+
+.headline, .display-1
+  font-family: 'Avenir', sans-serif !important;
+
+.v-label
+  font-size: 12pt !important
